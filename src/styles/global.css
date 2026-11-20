@@ -1,0 +1,83 @@
+
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+
+/* CSS RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* HTML */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+
+/* BODY */
+
+body {
+  font-family: 'DM Sans', sans-serif;
+
+  background-color: #f8f9fb;
+
+  color: #101827;
+
+  line-height: 1.6;
+}
+
+
+/* COMMON VARIABLES */
+
+:root {
+  --primary-color: #101827;
+  --secondary-color: #c49a58;
+  --white-color: #ffffff;
+  --text-color: #667085;
+  --light-background: #f8f9fb;
+  --border-color: #e5e7eb;
+}
+
+
+/* LINKS */
+
+a {
+  text-decoration: none;
+}
+
+
+/* BUTTON */
+
+button {
+  font-family: inherit;
+}
+
+
+/* IMAGES */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* SECTION COMMON */
+
+section {
+  width: 100%;
+}
+
+
+/* SELECTION */
+
+::selection {
+  background-color: #c49a58;
+  color: #101827;
+}

@@ -1,0 +1,174 @@
+
+/* ABOUT SECTION */
+
+.about-section {
+  padding: 100px 0;
+  background-color: var(--white-color);
+}
+
+
+/* CONTAINER */
+
+.about-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+/* SECTION HEADING */
+
+.about-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about-heading p {
+  color: var(--secondary-color);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+.about-heading h2 {
+  color: var(--primary-color);
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+}
+
+.about-heading h2 span {
+  color: var(--secondary-color);
+}
+
+.about-line {
+  width: 60px;
+  height: 3px;
+  background-color: var(--secondary-color);
+  margin: 15px auto 0;
+}
+
+
+/* ABOUT CONTENT */
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+
+/* ABOUT TEXT */
+
+.about-text h3 {
+  color: var(--primary-color);
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: var(--text-color);
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 18px;
+}
+
+
+/* DETAILS */
+
+.about-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+/* DETAIL CARD */
+
+.about-detail-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  padding: 17px;
+
+  background-color: var(--light-background);
+
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+.about-detail-card:hover {
+  transform: translateX(5px);
+  border-color: var(--secondary-color);
+}
+
+
+/* ICON */
+
+.about-icon {
+  min-width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f2e8d8;
+  color: #a77b3e;
+
+  border-radius: 8px;
+}
+
+
+/* DETAIL TEXT */
+
+.about-detail-card span {
+  color: var(--text-color);
+  font-size: 12px;
+}
+
+.about-detail-card h4 {
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+
+/* TABLET */
+
+@media (max-width: 900px) {
+  .about-content {
+    gap: 30px;
+  }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+  .about-section {
+    padding: 70px 0;
+  }
+
+  .about-heading {
+    margin-bottom: 40px;
+  }
+
+  .about-heading h2 {
+    font-size: 32px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .about-text h3 {
+    font-size: 21px;
+  }
+}
