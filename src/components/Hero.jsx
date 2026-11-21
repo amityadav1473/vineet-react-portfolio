@@ -53,11 +53,11 @@ function Hero() {
             </a>
 
             <a
-              href="/Vineet-Kumar-Resume.pdf"
-              download="Vineet-Kumar-Resume.pdf"
+              href="/Vineet-Kumar-CV.pdf"
+              download="Vineet-Kumar-CV.pdf"
               className="hero-btn-secondary"
             >
-              Download Resume
+              Download CV
               <Download size={18} />
             </a>
 
