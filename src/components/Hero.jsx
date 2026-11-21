@@ -72,7 +72,7 @@ function Hero() {
           <div className="hero-image-frame">
 
             <img
-              src="/vineet-profile.png"
+              src="/vineet.png"
               alt="Vineet Kumar"
               className="hero-image"
             />
